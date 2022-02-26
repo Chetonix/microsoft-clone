@@ -1,0 +1,64 @@
+/* Utilities */
+
+:root {
+    --dark-color: #1f2937;
+  }
+  
+  * {
+    font-size: 13px;
+    margin: 0;
+    padding: 0;
+    font-family: "Segoe UI", SegoeUI,"Helvetica Neue",Helvetica,Arial,sans-serif;;
+
+  }
+  .container {
+    max-width: 1100px;
+    margin: 0 auto;
+    padding: 0 64px;
+    overflow: auto;
+  }
+
+  
+
+  /* Styles */
+
+  header {
+      color: #262626;
+  }
+  header .flex {
+      flex-direction: row;
+  }
+
+  ul {
+    list-style-type: none;
+  }
+
+  .nav-left ul{
+      display: flex;
+      flex-direction:row;
+      align-items: center;
+      justify-content: space-evenly;
+  }
+
+  .nav-right ul{
+      display: flex;
+      flex-direction: row;
+      align-items: center;
+      justify-content: space-evenly;
+  }
+
+  .nav-bar .flex {
+      display: flex;
+      flex-direction: row;
+      align-items: center;
+  }
+
+  .nav-right {
+    margin-left: auto;
+  }
+
+  .logo{
+    width: 137px;
+    height: 100%;
+
+  }
