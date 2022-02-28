@@ -174,7 +174,17 @@ ul {
      background: #f4f4f4;
      color: #333;
  }
-
+ 
  .carbon p {
     margin: 10px 0 20px;
+ }
+
+ /* Follow */
+ 
+ .follow {
+     display: flex;
+     align-items: center;
+     justify-content: flex-start;
+     gap: 10px;
+     margin: 30px 0 3px;
  }
